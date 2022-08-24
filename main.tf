@@ -15,7 +15,7 @@ terraform {
     organization = "Terraform-github-cloud-demo"
 
     workspaces {
-      name = "Terraform-github-cloud-demo"
+      name = "github-demo-labs"
     }
   }
 }
