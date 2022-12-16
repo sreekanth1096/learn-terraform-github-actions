@@ -35,7 +35,7 @@ jobs:
         - name: Vulnerability scan
           uses: snyk/action/iac@master
           env:
-            SNYK_TOKEN: ${{ secrets.SYNK_TOKEN }}
+            SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
           with:
             args: --severity-treshold=low
               --safari-file-output=terraform.synk.scan
